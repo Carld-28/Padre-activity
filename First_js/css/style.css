@@ -10,12 +10,12 @@ border-radius: 10px;
     border: 2px solid;
 }
 .register-button{
-    color: green;
+    color: black;
     background-color: yellow;
     border-radius: 5px;
 }
 .register-button:hover{
-    background-color: gray;
+    background-color: black;
     color: yellow;
 }
 
