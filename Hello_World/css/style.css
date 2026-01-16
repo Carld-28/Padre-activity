@@ -1,6 +1,6 @@
 
 .content {
-    background-color: white;
+    background-color: greenyellow;
     text-align: center;
     font-style: italic;
     margin: 10px;
@@ -9,7 +9,7 @@
     border-color: pink;
 }
 .content:hover{
-    color: white;
+    color: RED;
     background-color: black;
 }
     a:link {
@@ -29,3 +29,16 @@ a:active {
     color:pink;
 }
 
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    background-color: BLUE;
+}
