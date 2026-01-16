@@ -1,0 +1,31 @@
+
+.content {
+    background-color: white;
+    text-align: center;
+    font-style: italic;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-color: pink;
+}
+.content:hover{
+    color: white;
+    background-color: black;
+}
+    a:link {
+        color: yellow;
+        background: red;
+    }
+a:visited{
+    color: blue;
+    background-color: yellow;
+}
+
+a:hover{
+    color:green;
+}
+
+a:active {
+    color:pink;
+}
+

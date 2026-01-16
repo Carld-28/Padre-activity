@@ -1,0 +1,49 @@
+.submit-button{
+color: black;
+background-color: yellowgreen;
+font-style: italic;
+border-radius: 10px;
+}
+.submit-button:hover{
+    background-color: black;
+    color: yellow;
+    border: 2px solid;
+}
+.register-button{
+    color: green;
+    background-color: yellow;
+    border-radius: 5px;
+}
+.register-button:hover{
+    background-color: gray;
+    color: yellow;
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    background-color: yellow;
+}
+input {
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+input:hover {
+    border: 2px solid;
+    background-color: yellow;    
+    color: black;
+}
