@@ -12,7 +12,10 @@
         }
 
         if (username === 'admin' && password === 'password') {
-            alert('Login successful!');
+            error.style.background = "green";
+            error.innerText = "Login successful!";
+            error.style.visibility = "visible";
+
         } else {
             error.innerText = "Invalid username or password.";
             error.style.visibility = "visible";

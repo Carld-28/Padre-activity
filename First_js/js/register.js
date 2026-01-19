@@ -21,6 +21,9 @@ if (password.length === 0) {
         errorMessage.style.visibility = "visible";
         return;
     }
-    else
-    alert('Registration successful');
+    else {
+        errorMessage.style.background = "green";
+        errorMessage.style.visibility = "visible";
+        errorMessage.innerText = "Registration successful!";
+    }
 }
