@@ -1,8 +1,10 @@
+
 .submit-button{
 color: black;
-background-color: yellowgreen;
+background-color: yellow;
 font-style: italic;
 border-radius: 10px;
+padding: 5px;
 }
 .submit-button:hover{
     background-color: black;
@@ -11,14 +13,28 @@ border-radius: 10px;
 }
 .register-button{
     color: black;
+    font-style: italic;
     background-color: yellow;
     border-radius: 5px;
+    padding: 5px;
 }
 .register-button:hover{
     background-color: black;
     color: yellow;
 }
-
+.back-button{
+    color: black;
+    background-color: yellow;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.back-button:hover{
+    background-color: black;
+    color: yellow;
+}
 
 body, html {
     height: 100%;
@@ -33,6 +49,20 @@ body, html {
     height: 100%; 
     background-color: yellow;
 }
+.error{
+    color: yellow;
+    margin-bottom: 15px;
+    visibility: hidden;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+}
+.error:hover{
+    color: black;
+    background-color: yellow;
+    border: 2px solid;
+    padding: 10px;
+}
 input {
     margin: 10px;
     padding: 10px;
@@ -46,4 +76,17 @@ input:hover {
     border: 2px solid;
     background-color: yellow;    
     color: black;
+}
+.register-link{
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 1px;
+    background-color: yellow;
+}
+.register-link:hover{
+    color: yellow;
+    background-color: black;
+    border: 2px solid;
+    padding: 5px;
 }
