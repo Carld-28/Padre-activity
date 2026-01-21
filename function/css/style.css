@@ -1,0 +1,74 @@
+.container{
+    width: 250px;
+    margin: auto;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: black;
+}
+.container:hover{
+    border: 2px solid yellow;
+    background-color: orange;
+}
+input{
+    width: 90%;
+    height: 40px;
+    margin-bottom: 10px;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    padding-right: 10px;
+    color: white;
+    background-color: grey;
+}
+input:hover{
+    background-color: lightgrey;
+    color: black;
+}
+.btn{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: grey;
+}
+body{
+    background-color: orange;
+}
+body:hover{
+    background-color: black;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    background-color: orange;
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+p:hover{
+    background-color: black;
+    color: orange;
+    border: 2px solid;
+}
+.button{
+    background-color: black;
+    color: yellow;
+    border-radius: 5px;
+    padding: 5px;
+}
+button:hover{
+    background-color: yellow;
+    color: black;
+    border: 2px solid;
+}
