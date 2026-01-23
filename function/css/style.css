@@ -1,16 +1,14 @@
 .container{
-    width: 250px;
+    width: 230px;
     margin: auto;
     border: 2px solid black;
     padding: 10px;
+    
     text-align: center;
-    border-radius: 5px;
+    border-radius: 20px;
     background-color: black;
 }
-.container:hover{
-    border: 2px solid yellow;
-    background-color: orange;
-}
+
 input{
     width: 90%;
     height: 40px;
@@ -54,15 +52,13 @@ input:hover{
 body{
     background-color: orange;
 }
-body:hover{
-    background-color: black;
-}
+
 p{
     text-align: center;
     font-size: 30px;
     font-weight: bold;
-    color: black;
-    background-color: orange;
+    color: orange;
+    background-color: black;
     border-radius: 20px;
     width: 50%;
     margin: auto;
