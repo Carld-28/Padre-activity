@@ -31,22 +31,22 @@ display.value = "0";
 function normal(value) {
     if (value === "AC") {
         first_input = "";
-        current_input = "";
         operator_input = "";
-        display.value = "0";    
+        current_input = "";
+        display.value = "0";
         display_operator.value = "";
         return;
     }
 
     if (value === "C") {
-        if (current_input.length === 1 && operator_input !== "") {
+        if (current_input.length === 1 && operator_input !== "") {//nu adda mamaysa a digit ken adda operator na palang
             current_input = "";
             display.value = "0";
             display_operator.value = operator_input;
             return;
         }
 
-        if (current_input === "" && display_operator.value === operator_input) {
+        if (current_input === "" && display_operator.value === operator_input) {//awan digit ken adda operator na palang
             display.value = first_input || "0";
             current_input = first_input;
             first_input = "";
@@ -55,7 +55,7 @@ function normal(value) {
             return;
         }
 
-        if (current_input.length > 0) {
+        if (current_input.length > 0) {//adda digit na
             current_input = current_input.slice(0, -1);
             display.value = current_input || "0";
         }
@@ -70,8 +70,8 @@ function normal(value) {
             first_input = current_input;
         }
         operator_input = value;
-        current_input = "";
         display_operator.value = operator_input;
+        current_input = "";
         display.value = "0";
         return;
     }
