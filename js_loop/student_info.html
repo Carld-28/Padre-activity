@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/student_info.css">
+    <title>Student Information</title>
+</head>
+<body>
+
+    <h2>Student Information</h2>
+
+    <input class="input" type="text" id="output" placeholder="Enter student name">
+    <button class="search_btn" onclick="search(students)">Search</button>
+
+    <br><br>
+    <div class="error" id="error-message"></div><br>
+    <button class="btn1" onclick="displaypresent(students)">present</button>
+    <button class="btn2" onclick="displayabsent(students)">absent</button>
+    <button class="btn3" onclick="displaypassed(students)">passed</button>
+    <button class="btn4" onclick="displayfailed(students)">failed</button>
+    <br><br>
+   
+    <table class="table" border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Sub1</th>
+                <th>Sub2</th>
+                <th>Sub3</th>
+                <th>Average</th>
+                <th>Remarks</th>
+            </tr>
+        </thead>
+        <tbody id="students">
+        </tbody>
+    </table>
+
+    <script src="js/student_info.js"></script>
+
+</body>
+</html>
