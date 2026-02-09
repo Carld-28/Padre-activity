@@ -106,7 +106,7 @@ th, td {
 }
 h2{display: flex;
     justify-content: center;
-    background: linear-gradient(to left, red, green, blue);
+    background: linear-gradient(to right, red, green, blue);
     border-radius: 50px;
     color: white;
 }
