@@ -8,7 +8,8 @@ const students = [
     { name: "Grace", scores: [92, 89, 94], present: true },
     { name: "Hannah", scores: [73, 70, 68], present: false },
     { name: "Ivan", scores: [81, 84, 79], present: true },
-    { name: "Julia", scores: [96, 98, 97], present: true }
+    { name: "Julia", scores: [96, 98, 97], present: true },
+    { name: "Dave", scores: [75, 75, 75], present: true }
 ];
 
 function getAverage(scores) {//isu ti magi pla plas yanti scores
@@ -16,7 +17,7 @@ function getAverage(scores) {//isu ti magi pla plas yanti scores
     for (let i in scores) {
         total += scores[i];
     }
-    return total / scores.length; //i divide na jay totsl score nu manu nga scores wennu grade ti adda dijay
+    return total / scores.length; //i divide na jay total score nu manu nga scores wennu grade ti adda dijay
 }
 
 function showError(message) {

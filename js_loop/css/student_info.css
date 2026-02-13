@@ -53,7 +53,7 @@ body {
     border-radius: 15px;
 }
 th, td {
-    border: 1px solid black;
+    border: 1px;
     padding: 10px;
     text-align: center;
 }
